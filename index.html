@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>HAU Campuss++</title>
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <h1>Holy Angel University</h1>
+
+     <label for="name">Name:</label>
+     <input type="text" id="name" placeholder="Input name"><br>
+     <label for="student-number">Student Number:</label>
+     <input type="text" id="student-number" placeholder="Input number"><br>
+     <label for="degree-program">Degree Program:</label>
+     <input type="text" id="degree-program" placeholder="Input course"><br>
+     <label for="year-level">Year Level:</label>
+     <input type="number" id="year-level" min="1" max="4" placeholder="Input year"><br><br>
+     <button id="create-student-btn">Create Student</button><br>
+     
+     <table id="student-table">
+          <thead style="display: none;"> <tr>
+                    <th>Name</th>
+                    <th>Student Number</th>
+                    <th>Degree Program</th>
+                    <th>Year Level</th>
+                    <th>Actions</th>
+                    <th>Current Action</th>
+               </tr>
+          </thead>
+          <tbody></tbody>
+     </table>
+     <script src="script.js"></script>
+</body>
+</html>
